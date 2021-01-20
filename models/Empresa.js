@@ -1,15 +1,15 @@
 const { Schema, model } = require('mongoose');
 const schema = new Schema({
-  nome: string,
-  endereco: string,
-  bairro: string,
-  cep: string,
-  cnpj: string,
-  tax_indentification_number: string,
-  telefone: string,
-  fax: string,
-  email: string,
-  site: string,
+  nome: String,
+  endereco: String,
+  bairro: String,
+  cep: String,
+  cnpj: String,
+  tax_indentification_number: String,
+  telefone: String,
+  fax: String,
+  email: String,
+  site: String
 
 })
 
